@@ -15,6 +15,8 @@
             <th>Imię</th>
             <th>Nazwisko</th>
             <th>Data urodzenia</th>
+            <th>Miasto</th>
+            <th>Województwo</th>
         </tr> 
 <?php
     require_once "./skrypty_db/connect.php";
@@ -26,6 +28,8 @@
             <td>$user[firstName]</td>
             <td>$user[lastName]</td>
             <td>$user[birthday]</td>
+            <td>$user[city]</td>
+            <td>$user[state]</td>
         </tr>
     TABLEUSERS;
     }
