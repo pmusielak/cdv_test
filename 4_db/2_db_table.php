@@ -52,6 +52,8 @@
 TABLEUSERS;
   }}
   echo "</table>";
+  $conn->close();
 ?>
+<a href="">Dodaj użytkownika</a>
 </body>
 </html>
